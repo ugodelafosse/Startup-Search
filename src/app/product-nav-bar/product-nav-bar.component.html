@@ -1,0 +1,12 @@
+<div class="searchNavBar">
+  <div class="company">
+    <a class="navbar-brand" href="#">Startup Search</a>
+  </div>
+</div>
+<div class="userIcon">
+  <button mat-button [matMenuTriggerFor]="menu"><i class="fa fa-user-circle-o" aria-hidden="true"></i></button>
+  <mat-menu #menu="matMenu" [overlapTrigger]="false">
+    <button mat-menu-item routerLink="/profile">My Profile</button>
+    <button mat-menu-item href="javascript:void(0)" (click)="auth.logout()" routerLink="/">Log Out</button>
+  </mat-menu>
+</div>

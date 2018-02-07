@@ -1,0 +1,11 @@
+<form action="#">
+    <div class="input-group">
+        <input autofocus #box (keyup.enter)="handleChange(box.value)"
+            type="text" placeholder="What are you looking for?" class="form-control input-lg" aria-label="Search" autocomplete="off" spellcheck="false"
+            [value]="state.query"/>
+            <!-- (input)="handleChange($event.target.value)" -->
+        <span class="input-group-btn">
+            <button class="btn btn-lg btn-secondary" type="button" (click)="handleChange(box.value)">Search</button>
+        </span>
+    </div>
+</form>

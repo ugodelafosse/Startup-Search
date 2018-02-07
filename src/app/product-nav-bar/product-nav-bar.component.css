@@ -1,0 +1,25 @@
+.searchNavBar {
+  width: 25%;
+  min-width: 250px;
+  height: 80px;
+  background: #e4f1fd;
+}
+
+.company {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10%;
+  color: #5caff7;
+  font-weight: bold;
+}
+
+.userIcon {
+  float: right;
+  margin-top: -65px;
+  padding-right: 3%;
+  color: #5caff7;
+}
+
+.userIcon button i {
+  font-size: 60px;
+}

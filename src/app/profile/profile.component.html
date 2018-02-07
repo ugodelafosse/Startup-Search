@@ -1,0 +1,5 @@
+<app-navbar-default></app-navbar-default>
+<div *ngIf="profile !== undefined">
+    <h3>Full JSON:</h3>
+    <pre class="full-profile">{{ profile | json }}</pre>
+</div>

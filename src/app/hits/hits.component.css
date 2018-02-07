@@ -1,0 +1,24 @@
+h2 {
+  font-size: 28px;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: #8bb8de;
+}
+
+mark {
+	background-color: yellow;
+}
+
+.is-hits-root {
+  color: #62a1d8;
+}
+
+.by {
+  opacity: 0.6;
+}
+
+.clients {
+  font-weight: bold;
+}

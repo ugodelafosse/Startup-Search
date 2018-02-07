@@ -1,0 +1,94 @@
+{
+  "_body": {
+    "product": {
+      "name": "Akolyt",
+      "clients": 2000,
+      "short_description": "drust is a driver-centric telematic platform which connects drivers to the heart of their vehicles and to the car's ecosystem.",
+      "description": "drust provides drivers with a mobile application and a OBD-II connected dongle that helps them to be informed and more involved in their driving. The drivers benefit from personalized advice to reduce their fuel costs by up to 30% and to better manage the maintenance of their car. Doing so, drust builds interactions between these superdrivers, Insurance Companies and Car Mechanics, to foster better driver behavior and more trust in the relationship.",
+      "propval": "Proposition de valeur du produit",
+      "whats_unique": [
+        "Première raison pourquoi le produit est unique",
+        "Deuxième raison pourquoi le produit est unique",
+        "Troisième raison pourquoi le produit est unique",
+        "Quatrième raison pourquoi le produit est unique"
+      ],
+      "cover_image": "https://images.caradisiac.com/images/4/3/6/5/114365/S0-drust-le-boitier-connecte-a-tout-faire-pour-l-entretien-et-l-aide-a-la-conduite-402925.jpg",
+      "images": [
+        "https://cdn.apkmonk.com/images/io.drust.akolyt.png",
+        "https://drust.fr/wp-content/themes/drust/img/akolyt_hd.png",
+        "https://lh3.googleusercontent.com/o7kzewd7GhlzAyBxQhU6lud-rLzMm5b2GPxoLB_MzIbfSre0VvLiobuARanAKwU0MLs=h900",
+        "https://drust.fr/videos/shutterstock_v5785796.jpg"
+      ],
+      "queries": [
+        "Voiture connectée",
+        "Connected car",
+        "voiture",
+        "maintenance",
+        "drust",
+        "akolyt"
+      ],
+      "notifications": [
+        "simon@iot-valley.fr",
+        "bertran@iot-valley.fr"
+      ]
+    },
+    "startup": {
+      "name": "Drust",
+      "logo": "https://drust.fr/wp-content/uploads/2015/12/corporate-color-facettes.png",
+      "created_year": 2017,
+      "employees": 10,
+      "team": [
+        {
+          "role": "CEO",
+          "name": "Elon Musk"
+        },
+        {
+          "role": "CTO",
+          "name": "Mark Zuckerberg"
+        },
+        {
+          "role": "CMO",
+          "name": "Peter Thiel"
+        }
+      ],
+      "ecosystems": [
+        {
+          "year": 2010,
+          "name": "Numa Paris"
+        },
+        {
+          "year": 2012,
+          "name": "IoT Valley"
+        },
+        {
+          "year": 2013,
+          "name": "Y Combinator"
+        },
+        {
+          "year": 2014,
+          "name": "IoT Valley"
+        }
+      ],
+      "raised": [
+        {
+          "year": 2012,
+          "amount": "150k$"
+        },
+        {
+          "year": 2015,
+          "amount": "3M$"
+        }
+      ]
+    }
+  },
+  "status": 200,
+  "ok": true,
+  "statusText": "OK",
+  "headers": {
+    "content-type": [
+      "text/html; charset=utf-8"
+    ]
+  },
+  "type": 2,
+  "url": "http://startup-search-dev.cloudapp.net:8080/product-static?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik0wRXhSalE1UXpZd1JUTXpOek5FUXpVMU9VSkJNVGcyT1RJd1JqZzFSRFl6T0VFeFJUTTBOZyJ9.eyJnaXZlbl9uYW1lIjoiVWdvIiwiZmFtaWx5X25hbWUiOiJERUxBRk9TU0UiLCJuaWNrbmFtZSI6InVnbyIsIm5hbWUiOiJVZ28gREVMQUZPU1NFIiwicGljdHVyZSI6Imh0dHBzOi8vbWVkaWEubGljZG4uY29tL21wci9tcHJ4LzBfUEhmNzlyZnpmQjhSWHBiTkJKMVducTB6WXMybkJyV1V2SjFEX2F4emZjVDk2cFhaR2EtV0w1WUswVVM5Qk9lNGIzLTJrcTB6MllEOXYzVy05X1loM0l4MVVZRG52M3pSYl9ZaHRvbXZhWTM5djNvclFuUEloT3RKUzVBc1hCa0stWkM4TkFhc1VkeXg5NUxCTnpNLXg3IiwidXBkYXRlZF9hdCI6IjIwMTgtMDEtMjdUMTM6MDI6MjguNDQ4WiIsImVtYWlsIjoidWdvQHZhbi1naW5uZWtlbi5vcmciLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6Ly9pb3R2LXN0YXJ0dXBzZWFyY2guZXUuYXV0aDAuY29tLyIsInN1YiI6ImxpbmtlZGlufEszQjByVnlxd00iLCJhdWQiOiJCMkR6WHNXdTI1eWV3ZldXYjVCcFZ6Q0dLMk82VlhHRSIsImlhdCI6MTUxNzA1ODE0OCwiZXhwIjoxNTE3MDk0MTQ4LCJhdF9oYXNoIjoiTEFPYlFONWw1SWtLU1RkVHJyaFhnUSIsIm5vbmNlIjoiRzd5Q2tLWm13ZV9jZmlpZURwZnFHb2NnckU2Z1ZQMlAifQ.I3qpwYMfhKprPiMiKof7NrLaI6IhYPnCSBUHTmIWvBo0wg5uK3yklASrsSbxcjUgR-HSwhq2CYh0RFq1ckoLvUeFcpQcydZhmAceG3C2QCe6TJXTQn2CZHn7_OFSKn4aKN9Y9TlL_RnKPgvQunFO9dgKHM0oiBjgFI3IcvumJJH6M_SzzBis3baMLoyajcIbLnfSsjqAuRHLuj4xzS_2M4rfFRN-56nxExNG2Aiuu-1KFipb4BdDa5K2dVSGtk85w1ycjhnhMRD_9bd-PCRZmODFTgUbytGD4Kr6XgrvXUzLHb0AxzK0dGdLIGfb2s4vDhxPf5hWBE5GNq9mTz_M2A"
+}

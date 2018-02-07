@@ -1,0 +1,10 @@
+<div class="searchBox-container">
+  <div>
+    <input autofocus #box (keyup.enter)="handleChange(box.value)"
+           type="text" placeholder="What are you looking for?" class="input" aria-label="Search" autocomplete="off" spellcheck="false"
+           [value]="state.query"/>
+    <div class="button-div">
+        <button mat-raised-button color="primary" class="button" type="button" (click)="handleChange(box.value)">Search</button>
+    </div>
+  </div>
+</div>

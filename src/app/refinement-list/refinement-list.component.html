@@ -1,0 +1,12 @@
+<div>
+    <label
+        *ngFor="let item of (state.items ? state.items.slice(0, 10) : [])"
+        (click)="handleChange($event.target.value)">
+        <input
+            type="checkbox"
+            [value]="item.value"
+            [checked]="item.isRefined"
+        />
+        <span>({{ item.count }})</span>
+    </label>
+</div>

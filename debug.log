@@ -1,0 +1,1 @@
+[0127/215724.604:ERROR:process_info.cc(396)] NtQuerySystemInformation SystemExtendedHandleInformation: La longueur d’enregistrement d’informations spécifiée ne correspond pas à la longueur nécessaire pour la classe d’informations spécifiée. (0xc0000004)

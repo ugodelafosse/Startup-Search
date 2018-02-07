@@ -1,0 +1,36 @@
+<app-navbar-default></app-navbar-default>
+
+<!-- Si utilisateur authentifié -->
+<div *ngIf="auth.isAuthenticated()">
+    <div class="jumbotron text-center">
+        <h1>
+            You have a problematic<br/>
+            We have a startup 🚀<br/>
+            <br/>
+        </h1>
+
+        <!-- Algolia Search box -->
+        <app-search-box></app-search-box>
+
+    </div>
+
+    <!-- Algolia Hits (présent uniquement pour debug) -->
+    <!-- <app-hits></app-hits> -->
+
+</div>
+
+
+
+
+<!-- Si utilisateur non-authentifié -->
+<div *ngIf="!auth.isAuthenticated()">
+    <div class="jumbotron text-center">
+        <h1>Enter the platform with your Linkedin profile</h1><br/>
+        <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <br/><br/><br/>
+        <a (click)="auth.loginWithLinkedin()" class="btn btn-primary btn-social btn-lg btn-linkedin">
+            <i class="fa fa-linkedin"></i>Sign in with LinkedIn
+        </a>
+    </div>
+</div>
+

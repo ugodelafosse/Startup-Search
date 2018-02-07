@@ -1,0 +1,21 @@
+<div class="is-hits-root">
+    <div *ngIf="firstrendered === false">
+        <div *ngIf="state.results.query.length === 0">
+            <p>Go ahead, try searching for <a href="/search?q=something">something</a> above!</p>
+        </div>
+        <div *ngIf="state.results.query.length !== 0">
+            <div *ngIf="state.hits.length !== 0">
+                   <br/><br/><br/>
+                   <div *ngFor="let hit of state.hits">
+                     <h2 routerLink="/product/test-static">{{hit.name}}</h2>
+                     <p><span class="by">by</span> &nbsp; {{hit.manufacturer}} - <span class="clients">{{hit.bestSellingRank}} clients</span></p>
+                     <p>{{hit.shortDescription}}</p>
+                   </div>
+            </div>
+            <div *ngIf="state.hits.length === 0">
+                <p>Ouch, we couldn't find anything based on your search :(<br/>
+                Try searching for <a href="/search?q=bose">something else!</a></p>
+            </div>
+        </div>
+    </div>
+</div>

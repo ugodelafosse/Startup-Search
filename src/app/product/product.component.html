@@ -1,0 +1,68 @@
+<app-product-nav-bar></app-product-nav-bar>
+<div class="main-container">
+
+  <div class="startup-info">
+    <div class="startup-desc">
+      <div class="img">
+        <img src="{{product_json?.startup?.logo}}"/>
+      </div>
+      <div class="startup-name">
+        <h2>{{product_json?.startup?.name}}</h2>
+        <p>Créé en {{product_json?.startup?.created_year}}</p>
+        <p>{{product_json?.startup?.employees}} employés</p>
+      </div>
+    </div>
+      <div class="startup-datas">
+        <h3>EQUIPE</h3>
+        <p *ngFor="let equipe of product_json?.startup?.team">{{equipe.role}} - {{equipe.name}}</p>
+      </div>
+      <div class="startup-datas">
+        <h3>ECOSYSTEMES</h3>
+        <p *ngFor="let eco of product_json?.startup?.ecosystems">{{eco.year}} - {{eco.name}}</p>
+      </div>
+      <div class="startup-datas">
+        <h3>LEVÉE DE FOND</h3>
+        <p *ngFor="let fonds of product_json?.startup?.raised">{{fonds.year}} - {{fonds.amount}}</p>
+      </div>
+  </div>
+
+  <div class="product-info">
+    <div class="product-title">
+      <h1>{{product_json?.product?.name}}</h1>
+      <h3>{{product_json?.product?.clients}} clients</h3>
+      <p>« {{product_json?.product?.short_description}} »</p>
+    </div>
+    <div class="product-value">
+      <div *ngIf="product_json" [style.background-image]="'url(' + product_json.product.cover_image + ')'"></div>
+      <h2>{{product_json?.product?.propval}}</h2>
+    </div>
+    <div class="img-sec">
+      <div class="img-big">
+        <div class="responsive-aspect-ratio">
+          <img src="{{product_json?.product?.images[0]}}"/>
+        </div>
+      </div>
+      <div class="thumbs" (click)="changePicture(1)">
+        <div class="responsive-aspect-ratio">
+          <img src="{{product_json?.product?.images[1]}}"/>
+        </div>
+      </div>
+      <div class="thumbs" (click)="changePicture(2)">
+        <div class="responsive-aspect-ratio">
+          <img src="{{product_json?.product?.images[2]}}"/>
+        </div>
+      </div>
+      <div class="thumbs" (click)="changePicture(3)">
+        <div class="responsive-aspect-ratio">
+          <img src="{{product_json?.product?.images[3]}}"/>
+        </div>
+      </div>
+    </div>
+    <div class="product-desc">
+      <h1>What's unique ?</h1>
+      <p *ngFor="let unique of product_json?.product?.whats_unique">{{unique}}</p>
+    </div>
+  </div>
+
+</div>
+
